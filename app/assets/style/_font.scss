@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,500;1,700;1,900&display=swap');
+@mixin font ($fz,$lh,$fw){
+    font-size: $fz;
+    line-height: $lh;
+    font-weight: $fw;
+}
+.b24_36{
+    @include font(24px,36px,700);    
+}
+.b24_42{
+    @include font(24px,42px,700);
+}
+.m24_42{
+    @include font(24px,42px,500);
+}
+.m20_30{
+    @include font(20px,30px,500);
+}
+.m20_42{
+    @include font(20px,42px,500);
+}
+.m64_84{
+    @include font(64px,84px,500);
+}
+.m24_36{
+    @include font(24px,36px,500);
+}
